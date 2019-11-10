@@ -8,11 +8,12 @@ public static final int BUTTON_2 = 3;
 static Joystick = new Joystick;
 
   public final Button autoforwardbutton = new JoystickButton(Joystick BUTTON_1);
-  public final Button turnon button = new JoystickButton(Joystick BUTTON_2);
+  public final Button turnonbutton = new JoystickButton(Joystick BUTTON_2);
 
 
 public OI() {
-  autoforwardbutton.whenPrressed(new AutoForward(3.3,0)):
+  autoforwardbutton.whenPressed(new AutoForward(3.3,0)):
+  turnonbutton.whenPressed (new turnon);
 }
 public static Joystick = getJoystick() {
   return joystick;
